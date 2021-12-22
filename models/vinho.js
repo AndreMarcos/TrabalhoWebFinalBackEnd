@@ -8,7 +8,8 @@ const vinhos = new Schema({
     tipo_vinho : String,
     tipo_uva : String,
     harmonizacao : String,
-    vinicola : String
+    vinicola : String,
+    userID : String
 });
 
 module.exports = mongoose.model('Vinhos', vinhos);

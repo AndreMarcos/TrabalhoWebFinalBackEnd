@@ -13,7 +13,7 @@ exports.listVinhos = async (req, res) => {
 
 exports.createVinho = async (req, res, next) => {
     // print(req.body);
-    const vinho  = new listVinhos(req.body)
+    const vinho  = new VinhosModel(req.body)
     try{
         await vinho.save();
         res.status(200).send({message: 'Usuário cadastrado com sucesso!'});
