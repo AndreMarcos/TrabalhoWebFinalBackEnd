@@ -2,8 +2,6 @@
  
 ![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
 
-### Objteivos
-* 
 
 ## 💻 Pré-requisitos
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
